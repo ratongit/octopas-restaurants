@@ -1,0 +1,79 @@
+
+
+.bg-transParent {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 350px;
+  border:2px solid rgba(72, 66, 89, 0.942);
+  border-radius: 10px;
+}
+
+.input-container {
+  position: relative;
+  margin: 30px 20px;
+
+}
+
+
+.input-animation  + .input-text {
+  top: -12px;
+  left: 10px;
+  width: 90px;
+  font-size: 15px;
+  text-align: center;
+  padding:2px 14px;
+  background: #e5ebee;
+  color: #2800ad;
+  border-left:2px solid #033892;
+  border-right:2px solid #033892;
+
+}
+
+.input-text {
+  position: absolute;
+  top: 7px;
+  left: 25px;
+  transition: all 0.5s;
+  background: none;
+  pointer-events: none;
+  background-color: transparent;
+  color: rgb(29, 56, 70);
+  font-size: 18px;
+  font-weight: 600;
+  
+  
+}
+.text-center{
+    text-align: center;
+    color: black;
+}
+.form-input {
+  border: 2px solid #033892;
+  border-radius: 5px;
+  outline: none;
+  padding: 6px 0;
+  background: #cbd5d8;
+  
+}
+.card-container{
+    position: relative;
+    
+}
+.sign-up-card{
+  position: absolute;
+  transform: translateX(-50%);
+  top: 50%;
+  left:35%;
+  border-radius: 10px;
+  margin: 0 auto;
+  
+} 
+input{
+  color: rgb(13, 44, 63);
+  text-align: center;
+  width: 150%;
+  font-size: 18px;
+  font-weight: 500;
+text-align: center;
+
+  
+}
